@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form in Html</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="container-heading-h1">Student Name : XYZ</h1>
+      <h2 class="container-heading-h2">Student Id : 223657890109</h2>
+      <hr class="container-hr" />
+      <form class="rigistration-form">
+        <h1 class="rigistration-form-headidng">Registration Form</h1>
+        
+        <label for="name">Name</label>&nbsp;
+        <input
+          tye="text"
+          id="name"
+          name="name"
+          placeholder="Enter the name"
+          required
+        />
+        &nbsp;&nbsp;&nbsp;
+        <label for="CNIC">CNIC</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input
+          type="number"
+          id="number"
+          name="CNIC"
+          placeholder="00000-0000000-0"
+          required
+        />
+        <br />
+        <label for="course">Course</label><input
+          type="text"
+          name="course"
+          id="course"
+          placeholder="Enter the Course name"
+          required
+        />&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Session">Session</label>&nbsp;&nbsp;
+        <input
+          type="text"
+          name="Session"
+          id="Session"
+          placeholder="Enter the Session"
+          required
+        />
+        <br />
+        <label for="Email">Email</label>&nbsp;&nbsp;
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter the Email"
+          required
+        />&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="password">password</label><input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter the password"
+          required
+        />
+        <br />
+        <label for="adress">Adress</label>
+        <input
+          type="text"
+          name="message"
+          id="adress"
+          placeholder="Enter the Adress"
+          required
+        />
+        <br /> <br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="html" name="fav_language" value="Male" />
+          <label for="male">Male</label>  
+        <input type="radio" id="female" name="fav_language" value="Female" />  
+        <label for="female">Female</label>  
+        <input type="radio" id="other" name="fav_language" value="Other" />  
+        <label for="other">Other</label> <br /> <br>
+        <label for="city">City</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="city" id="city"> 
+          <option value="city">------------------------Select------------------------</option>
+
+          <option value="city">pakistan</option>
+          <option value="city">India</option>
+          <option value="city">Iran</option>
+          <option value="city">Iraq</option>
+          <option value="city">Afghanistan</option>
+          <option value="city">China</option>
+        </select>
+        <br /> <br>
+        <input
+          type="checkbox"
+          name="newstudent"
+          id="newstudent"
+          value="newstudent"
+        />
+        <label for="newstudent">New Student</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input
+          type="checkbox"
+          name="continuingsutdent"
+          id="continuingsutdent"
+          value="continuingsutdent"
+        />
+        <label for="continuingsutdent">Continuing Student</label> <br /> <br>
+        <button type="submit" value="submit">Submit</button>
+        <button type="reset" value="reset">Reset</button>
+      </form>
+    </div>
+   
+  </body>
+</html>
